@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -8,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication and Software security",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,23 +39,23 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for development and Software security.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "",
+    spareImg: "",
   },
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    title: "Currently building a Cyber range Plaform",
+    description: "",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-2 lg:min-h-[60vh]",
+    imgClassName: "w-full h-full",
+    titleClassName: "justify-end",
+    img: "/b5.png",
     spareImg: "/grid.svg",
   },
   {
@@ -72,146 +73,132 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "አኩኩሉ CTF platform",
+    des: "Capture the flag platform for Bahirdar university",
+    img: "/b5.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/go.svg","/docker.svg", "/wireguard.svg", "/redis.svg"],
+    link: "",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Public Key Infrastructure",
+    des: "Intermediate level PKI using openssl and Bash scripting Lang.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/bash.svg"],
+    link: "",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Note Keeping App",
+    des: "Note keeping Application using django",
+    img: "/p1.svg",
+    iconLists: ["/django.svg", "/tail.svg"],
+    link: "",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Student Management and Monitoring System",
+    des: "Student Location and Authentication Managment and monitoring System for Bahirdar University",
+    img: "/p2.svg",
+    iconLists: ["/laravel.svg", "/tail.svg"],
+    link: "",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Mintesnot was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mintesnot's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mintesnot is the ideal partner.",
+    name: "Eyob Zekarias",
+    title: "Bahirdar university Cyber Security Graduate",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Mintesnot to develop the CTFF platform was an outstanding experience. Their professionalism, responsiveness, and commitment to excellence were evident at every stage of the project. Mintesnot's passion for innovation and attention to detail truly set them apart. If you're looking to build a transformative digital solution that drives impact, Mintesnot is the perfect collaborator.",
+    name: "Dr.Tesfahun",
+    title: "Faculty of Computing Din at Bahirdar university",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "What Mintesnot has built with the CTF platform goes far beyond a typical final-year project—it;s a sophisticated, scalable system that solves real-world challenges with remarkable ingenuity. The evaluators at Bahir Dar University were thoroughly impressed by its technical depth, seamless functionality, and potential for lasting impact. Mintesnot didn't just meet academic requirements; they delivered a professional-grade solution that could easily be adopted at an institutional level. Their vision, skill, and dedication are truly exceptional.",
+    name: "Mr. Kokeb and Mr. Belayneh",
+    title: "Director of Bahirdar Cyber security Departement",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Thank you no word for you.",
+    name: "Mr. Abel T.",
+    title: "Supervior",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "BahirDar Unversity",
+    img: "/bdu.png",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "INSA",
+    img: "/insa.png",
     nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Engineer Intern",
+    desc: "Assisted in the development of a web-based platform using golang.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Peneteration Testing and Ethical Hacking Intern",
+    desc: "Performing a simulated attack on wide range of system ",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Ec-council Ethical Hacking Essentials Certified",
+    desc: "I have Ec-council Ethical Hacking Essentails Certificate from Coursera",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "Ethio coders certified",
+    desc: "I have been certified in Fundamental of programming and Data science",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
+    url : "https://github.com/mintesnotAfework",
     img: "/git.svg",
   },
   {
     id: 2,
+    url: "https://x.com/mintesnota34963",
     img: "/twit.svg",
   },
   {
     id: 3,
+    url: "https://www.linkedin.com/in/mintesnot-afework-4755a02a0/",
     img: "/link.svg",
   },
 ];
