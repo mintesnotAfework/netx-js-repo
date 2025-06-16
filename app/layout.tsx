@@ -7,8 +7,13 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Mintesnot's Portfolio",
+  description: "A portfolio showcasing my projects and skills",
+  openGraph: {
+    title: "Mintesnot's Portfolio",
+    description: "A portfolio showcasing my projects and skills",
+    siteName: "Mintesnot's Portfolio",
+  },
 };
 
 export default function RootLayout({
