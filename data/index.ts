@@ -213,4 +213,24 @@ export const socialMedia = [
     url: "https://www.linkedin.com/in/mintesnot-afework-4755a02a0/",
     img: "/link.svg",
   },
+  {
+    id: 4,
+    url: "https://t.me/mintesnotafework",
+    img: "/telegram.svg",
+  },
+  {
+    id: 5,
+    url: "https://medium.com/@mintesnotafework12/",
+    img: "/medium.svg",
+  },
+  {
+    id: 6,
+    url: "https://t.me/+251975557176",
+    img: "/phone.svg",
+  },
+  {
+    id: 7,
+    url: "https://wa.me/qr/GDAXSIBJ7U3DF1",
+    img: "/whatsapp.svg",
+  },
 ];
