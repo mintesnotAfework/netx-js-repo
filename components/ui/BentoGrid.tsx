@@ -55,21 +55,30 @@ export const BentoGridItem = ({
   const leftLists = ["ReactJS", "Next.Js", "Javascript","Tailwind"];
   const rightLists = ["Golang", "Django", "Laravel","Spring"];
 
-  const [copied, setCopied] = useState(false);
+  const [gmailCopied, setGmailCopied] = useState(false);
+  const [protonmailCopied, setProtonmailCopied] = useState(false);
+
 
   const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
+    loop: gmailCopied || protonmailCopied,
+    autoplay: gmailCopied || protonmailCopied, // Auto-start the animation
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
 
-  const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+  const handleCopy = (text: string) => {
     navigator.clipboard.writeText(text);
-    setCopied(true);
+    if (text == "mintesnotafework12@gmail.com"){
+      setGmailCopied(true);
+    } else {
+      setProtonmailCopied(true);
+    }
+    setTimeout(() => {
+      setGmailCopied(false);
+      setProtonmailCopied(false)
+    }, 3000);
   };
 
   return (
@@ -176,7 +185,7 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                className={`absolute -bottom-5 right-0 ${gmailCopied || protonmailCopied ? "block" : "block"
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
@@ -184,10 +193,17 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={gmailCopied ? "Email is Copied!" : "Copy my Gmail address"}
                 icon={<IoCopyOutline />}
                 position="left"
-                handleClick={handleCopy}
+                handleClick={() =>handleCopy("mintesnotafework12@gmail.com")}
+                otherClasses="!bg-[#161A31]"
+              />
+               <MagicButton
+                title={protonmailCopied ? "Email is Copied!" : "Copy my ProtonMail address"}
+                icon={<IoCopyOutline />}
+                position="left"
+                handleClick={() =>handleCopy("mintesnotafework12@protonmail.com")}
                 otherClasses="!bg-[#161A31]"
               />
             </div>

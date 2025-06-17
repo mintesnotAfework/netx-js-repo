@@ -83,24 +83,32 @@ export const projects = [
     id: 2,
     title: "Public Key Infrastructure",
     des: "Intermediate level PKI using openssl and Bash scripting Lang.",
-    img: "/p2.svg",
-    iconLists: ["/bash.svg"],
+    img: "/pki.png",
+    iconLists: ["/bash.svg","openssl.svg"],
     link: "",
   },
   {
     id: 3,
     title: "Note Keeping App",
     des: "Note keeping Application using django",
-    img: "/p1.svg",
-    iconLists: ["/django.svg", "/tail.svg"],
+    img: "/p2.svg",
+    iconLists: ["/django.svg", "/tail.svg","/html.svg","/jinja.svg"],
     link: "",
   },
   {
     id: 4,
     title: "Student Management and Monitoring System",
     des: "Student Location and Authentication Managment and monitoring System for Bahirdar University",
-    img: "/p2.svg",
-    iconLists: ["/laravel.svg", "/tail.svg"],
+    img: "/student.png",
+    iconLists: ["/laravel.svg", "/tail.svg","/blade.svg","/html.svg"],
+    link: "",
+  },
+    {
+    id: 5,
+    title: "Cryptographic Algorthims Implementation",
+    des: "Implementation of various cryptographic algorithms using C and Java",
+    img: "/crypto.png",
+    iconLists: ["/c++.svg", "/java-4.svg","/key.svg"],
     link: "",
   },
 ];
@@ -111,24 +119,28 @@ export const testimonials = [
       "Collaborating with Mintesnot was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mintesnot's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mintesnot is the ideal partner.",
     name: "Eyob Zekarias",
     title: "Bahirdar university Cyber Security Graduate",
+    image :"/eyu.png"
   },
   {
     quote:
       "Working with Mintesnot to develop the CTFF platform was an outstanding experience. Their professionalism, responsiveness, and commitment to excellence were evident at every stage of the project. Mintesnot's passion for innovation and attention to detail truly set them apart. If you're looking to build a transformative digital solution that drives impact, Mintesnot is the perfect collaborator.",
     name: "Dr.Tesfahun",
     title: "Faculty of Computing Din at Bahirdar university",
+    image :"/profile.svg"
   },
   {
     quote:
       "What Mintesnot has built with the CTF platform goes far beyond a typical final-year project—it;s a sophisticated, scalable system that solves real-world challenges with remarkable ingenuity. The evaluators at Bahir Dar University were thoroughly impressed by its technical depth, seamless functionality, and potential for lasting impact. Mintesnot didn't just meet academic requirements; they delivered a professional-grade solution that could easily be adopted at an institutional level. Their vision, skill, and dedication are truly exceptional.",
     name: "Mr. Kokeb and Mr. Belayneh",
     title: "Director of Bahirdar Cyber security Departement",
+    image :"/profile.svg"
   },
   {
     quote:
       "Thank you no word for you.",
     name: "Mr. Abel T.",
     title: "Supervior",
+    image :"/profile.svg"
   },
 ];
 
@@ -165,7 +177,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
+    desc: "Led the dev of a Web app for a client, from initial concept to deployment.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
