@@ -103,7 +103,7 @@ export const projects = [
     iconLists: ["/laravel.svg", "/tail.svg","/blade.svg","/html.svg"],
     link: "",
   },
-    {
+  {
     id: 5,
     title: "Cryptographic Algorthims Implementation",
     des: "Implementation of various cryptographic algorithms using C and Java",
