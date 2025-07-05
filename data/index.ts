@@ -210,7 +210,7 @@ export const socialMedia = [
   },
   {
     id: 3,
-    url: "https://www.linkedin.com/in/mintesnot-afework-4755a02a0/",
+    url: "https://www.linkedin.com/in/mintesnot-afework/",
     img: "/link.svg",
   },
   {
