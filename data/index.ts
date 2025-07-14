@@ -3,6 +3,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Certifications", link: "#certs" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -137,7 +138,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Thank you no word for you.",
+      "Thank you no word for you about the dedication and skill you have.",
     name: "Mr. Abel T.",
     title: "Supervior",
     image :"/profile.svg"
@@ -194,6 +195,41 @@ export const workExperience = [
     desc: "I have been certified in Fundamental of programming and Data science",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "API Security Fundamental 2025",
+    desc: "Issued By API University",
+    className: "md:col-span-",
+    thumbnail: "/apisec.jpeg",
+    VerificationLink: "https://www.credly.com/badges/77aead39-d86e-4f5c-8d7a-aeb141ad048a",
+},
+  {
+    id: 2,
+    title: "Data Analysis Fundamentals",
+    desc: "Issued By Udacity",
+    className: "md:col-span-1",
+    thumbnail: "/udacity.svg",
+    VerificationLink: "https://www.udacity.com/certificate/e/836af40e-2cc3-11f0-b9a9-77a8b83b4950",
+  },
+  {
+    id: 3,
+    title: "Programming Fundamentals",
+    desc: "Issued By Udacity",
+    className: "md:col-span-1",
+    thumbnail: "/udacity.svg",
+    VerificationLink: "https://www.udacity.com/certificate/e/d81b3e78-2cb9-11f0-b595-5bf7d8934423",
+  },
+  {
+    id: 4,
+    title: "Ec-council Ethical Hacking Essentials",
+    desc: "Issued By Ec-council",
+    className: "md:col-span-1",
+    thumbnail: "/eccoucil.png",
+    VerificationLink: "https://www.coursera.org/account/accomplishments/verify/GE2EB3SJJXFX",
   },
 ];
 
