@@ -43,7 +43,7 @@ const Hero = () => {
               />
 
               <TextGenerateEffect
-                words="Cyber Security Engineer | Web Application Developer| Penteration Tester"
+                words="Cyber Security Engineer | Web Application Developer| Penetration Tester"
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
               />
               <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
